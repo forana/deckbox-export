@@ -1,0 +1,27 @@
+{
+  "name": "deckbox-export",
+  "version": "1.0.0",
+  "description": "Export script for deckbox.org inventories",
+  "main": "deckbox-export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forana/deckbox-export"
+  },
+  "author": "Alex Foran <alex@alexforan.com> (http://alexforan.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forana/deckbox-export/issues"
+  },
+  "homepage": "https://github.com/forana/deckbox-export",
+  "dependencies": {
+    "q": "^1.0.1",
+    "request": "^2.44.0",
+    "htmlparser": "^1.7.7",
+    "soupselect": "^0.2.0",
+    "tough-cookie": "^0.12.1"
+  }
+}
