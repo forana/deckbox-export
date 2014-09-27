@@ -54,7 +54,6 @@ q.nfcall(request.get, {
 })
 .spread(function (response, body) {
     var disposition = response.headers["content-disposition"];
-    console.log(response.headers);
     var filename = disposition.split('"')[1];
     console.log("writing " + filename + " (" + body.length + " bytes)");
     return q.nfcall(fs.writeFile, config.exportsPath + "/" + filename, body);
