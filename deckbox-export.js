@@ -1,3 +1,6 @@
+#!/bin/sh
+':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
+
 var config = require("./config.json"),
     request = require("request"),
     q = require("q"),
